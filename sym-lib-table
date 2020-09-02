@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name tzarc)(type Legacy)(uri /home/undermark5/Downloads/qmk_hardware-master/kicad/proton_c/tzarc.lib)(options "")(descr ""))
+)
