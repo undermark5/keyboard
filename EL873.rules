@@ -1,0 +1,141 @@
+
+(rules PCB EL873
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 710)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.9)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.4)
+    )
+  )
+  (rule
+    (width 381.0)
+    (clear 203.4)
+    (clear 190.5 (type smd_to_turn_gap))
+    (clear 254.2 (type default_20m))
+    (clear 50.8 (type smd_smd))
+    (clear 254.2 (type smd_20m))
+    (clear 254.2 (type "kicad_default"_20m))
+    (clear 254.2 (type 10m_20m))
+    (clear 254.2 (type 20m_20m))
+  )
+  (padstack "Via[0-1]_609.6:304.8_um"
+    (shape
+      (circle F.Cu 609.6 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 609.6 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_609.6:304.8_um" "Via[0-1]_609.6:304.8_um" default
+  )
+  (via 
+    "Via[0-1]_609.6:304.8_um-kicad_default" "Via[0-1]_609.6:304.8_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_609.6:304.8_um-10m" "Via[0-1]_609.6:304.8_um" 10m
+  )
+  (via 
+    "Via[0-1]_609.6:304.8_um-20m" "Via[0-1]_609.6:304.8_um" 20m
+  )
+  (via_rule
+    default "Via[0-1]_609.6:304.8_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_609.6:304.8_um-kicad_default"
+  )
+  (via_rule
+    10m "Via[0-1]_609.6:304.8_um-10m"
+  )
+  (via_rule
+    20m "Via[0-1]_609.6:304.8_um-20m"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 381.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(D1-Pad2)" /row0 "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Net-(D7-Pad2)"
+    "Net-(D8-Pad2)" /row1 "Net-(D9-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)" /row2
+    "Net-(D14-Pad2)" "Net-(D15-Pad2)" "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)"
+    "Net-(D22-Pad2)" "Net-(D23-Pad2)" "Net-(D24-Pad2)" /row3 "Net-(D25-Pad2)" "Net-(D26-Pad2)" "Net-(D27-Pad2)" "Net-(D28-Pad2)"
+    "Net-(D29-Pad2)" "Net-(D30-Pad2)" "Net-(D31-Pad2)" "Net-(D32-Pad2)" /row4 "Net-(D33-Pad2)" "Net-(D34-Pad2)" "Net-(D35-Pad2)"
+    "Net-(D36-Pad2)" "Net-(D37-Pad2)" "Net-(D38-Pad2)" "Net-(D39-Pad2)" "Net-(D40-Pad2)" "Net-(D41-Pad2)" "Net-(D42-Pad2)" "Net-(D43-Pad2)"
+    /row5 "Net-(D44-Pad2)" "Net-(D45-Pad2)" "Net-(D46-Pad2)" "Net-(D47-Pad2)" "Net-(D48-Pad2)" "Net-(D49-Pad2)" "Net-(D50-Pad2)"
+    "Net-(D51-Pad2)" "Net-(D52-Pad2)" "Net-(D53-Pad2)" "Net-(D54-Pad2)" "Net-(D55-Pad2)" "Net-(D56-Pad2)" "Net-(D57-Pad2)" "Net-(D58-Pad2)"
+    "Net-(D59-Pad2)" "Net-(D60-Pad2)" /row6 "Net-(D61-Pad2)" "Net-(D62-Pad2)" "Net-(D63-Pad2)" "Net-(D64-Pad2)" "Net-(D65-Pad2)"
+    "Net-(D66-Pad2)" "Net-(D67-Pad2)" "Net-(D68-Pad2)" /row7 "Net-(D69-Pad2)" "Net-(D70-Pad2)" "Net-(D71-Pad2)" "Net-(D72-Pad2)"
+    "Net-(D73-Pad2)" "Net-(D74-Pad2)" "Net-(D75-Pad2)" "Net-(D76-Pad2)" "Net-(D77-Pad2)" "Net-(D78-Pad2)" "Net-(D79-Pad2)" "Net-(D80-Pad2)"
+    "Net-(D81-Pad2)" "Net-(D82-Pad2)" "Net-(D83-Pad2)" "Net-(D84-Pad2)" "Net-(D85-Pad2)" "Net-(D86-Pad2)" "Net-(D87-Pad2)" "Net-(D88-Pad2)"
+    "Net-(D89-Pad2)" "Net-(D90-Pad2)" "Net-(D91-Pad2)" "Net-(D92-Pad2)" "Net-(D93-Pad2)" "Net-(D94-Pad2)" "Net-(D95-Pad2)" "Net-(D96-Pad2)"
+    /col0 /col1 /col2 /col3 /col4 /col5 /col6 /col7
+    /col8 /col9 /col10 /col11 /GND /5V "/SIG_1" "/SIG_2"
+    "/SIG_3" "/SIG_4" "/SIG_5" "/SIG_6" "/SIG_7" "/SIG_8" "/SIG_9" "/SIG_10"
+    "/SIG_11" "/SIG_12" "/SIG_13" "/SIG_14" "/SIG_15" "/SIG_16" "/SIG_17" "/SIG_18"
+    "/SIG_19" "/SIG_20" "/SIG_21" "/SIG_22" "/SIG_23" "/SIG_24" "/SIG_25" "/SIG_26"
+    "/SIG_27" "/SIG_28" "/SIG_29" "/SIG_30" "/SIG_31" "/SIG_32" "/SIG_33" "/SIG_34"
+    "/SIG_35" "/SIG_36" "/SIG_37" "/SIG_38" "/SIG_39" "/SIG_40" "/SIG_41" "/SIG_42"
+    "/SIG_43" "/SIG_44" "/SIG_45" "/SIG_46" "/SIG_47" "/SIG_48" "/SIG_49" "/SIG_50"
+    "/SIG_51" "/SIG_52" "/SIG_53" "/SIG_54" "/SIG_55" "/SIG_56" "/SIG_57" "/SIG_58"
+    "/SIG_59" "/SIG_60" "/SIG_61" "/SIG_62" "/SIG_63" "/SIG_64" "/SIG_65" "/SIG_66"
+    "/SIG_67" "/SIG_68" "/SIG_69" "/SIG_70" "/SIG_71" "/SIG_72" "/SIG_73" "/SIG_74"
+    "/SIG_75" "/SIG_76" "/SIG_77" "/SIG_78" "/SIG_79" "/SIG_80" "/SIG_81" "/SIG_82"
+    "/SIG_83" "/SIG_84" "/SIG_85" "/SIG_86" "/SIG_87" "/SIG_88" "/SIG_89" "/SIG_90"
+    "/SIG_91" "/SIG_92" "/SIG_93" "/SIG_94" "/SIG_95" "/SIG_0" "/SIG_96" "Net-(U1-PadA10)"
+    "Net-(U1-PadA9)" "Net-(U1-PadD+)" "Net-(U1-PadB7)" "Net-(U1-PadB6)" "Net-(U1-PadD-)" "Net-(U1-PadCHRG)" "Net-(U1-PadDFU)" "Net-(U1-Pad3.3V)"
+    "Net-(U1-PadB14)" "Net-(U1-PadB15)" "Net-(U1-PadB13)" "Net-(U1-PadA14)" "Net-(U1-PadA13)" "Net-(U1-PadRST)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 381.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 10m
+    (clearance_class 10m)
+    (via_rule 10m)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 20m
+    (clearance_class 20m)
+    (via_rule 20m)
+    (rule
+      (width 508.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
