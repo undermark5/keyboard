@@ -1,4 +1,4 @@
-823940476411732
+850745538671262
 Keebio-Parts
 1.5U
 
@@ -55,6 +55,13 @@ Keebio-Parts
 0
 6
 6
+Keebio-Parts
+6.25UReversedStabs
+
+
+0
+4
+2
 Keebio-Parts
 7U
 
@@ -336,6 +343,13 @@ Through hole socket strip THT 1x06 2.54mm single row
 6
 6
 Keebio-Parts
+ISO
+
+
+0
+8
+4
+Keebio-Parts
 JUMPER_SMD_2DUB
 
 
@@ -448,6 +462,13 @@ LED_3mm
 2
 2
 Keebio-Parts
+LOGO
+
+
+0
+0
+0
+Keebio-Parts
 LQFP-48_7x7mm_Pitch0.5mm
 48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)
 QFP 0.5
@@ -469,11 +490,18 @@ MD_Diode
 2
 2
 Keebio-Parts
+MX-1U-0805
+
+
+0
+5
+2
+Keebio-Parts
 MX-1U-KS6812Mini-E
 
 
 0
-11
+6
 4
 Keebio-Parts
 MX-Alps-Choc-1U
@@ -581,6 +609,13 @@ MX/Alps footprint
 8
 2
 Keebio-Parts
+MX_1U_PLATE
+
+
+0
+0
+0
+Keebio-Parts
 MX_FMask
 
 
@@ -593,13 +628,6 @@ MX_FMask-2u
 
 0
 3
-1
-Keebio-Parts
-MX_FMask-2u-with-cutout
-
-
-0
-2
 1
 Keebio-Parts
 MX_FMask-with-cutout
@@ -624,6 +652,13 @@ MX_Stabilizer_Cutout
 0
 Keebio-Parts
 MX_Stabilizer_Cutout-2u
+
+
+0
+0
+0
+Keebio-Parts
+MX_Stabilizer_Cutout-6.25u
 
 
 0
@@ -2960,6 +2995,69 @@ Vishay KBU rectifier diode bridge
 0
 4
 4
+Type-C
+12401598E4#2A
+
+
+0
+28
+28
+Type-C
+HRO-TYPE-C-31-M-12
+
+
+0
+16
+13
+Type-C
+HRO-TYPE-C-31-M-12-Assembly
+
+
+0
+16
+13
+Type-C
+HRO-TYPE-C-31-M-12-HandSoldering
+
+
+0
+16
+13
+Type-C
+HRO-TYPE-C-31-M-13
+
+
+0
+16
+13
+Type-C
+USB_C_GCT_USB4085
+
+
+0
+20
+17
+Type-C
+Wurth-632723300011
+
+
+0
+32
+27
+Type-C
+Wurth-632723300011-HandSoldering
+
+
+0
+30
+26
+Type-C
+Wurth-632723300011-MaximumExtensionMount
+
+
+0
+32
+27
 keebs
 Mx_Alps_100
 MXALPS
@@ -3339,6 +3437,13 @@ LED led 3mm 3MM 100mil 2,54mm
 2
 2
 keyboard_parts
+LOGO
+
+
+0
+0
+0
+keyboard_parts
 LTC4054
 
 Lipo charger
@@ -3373,6 +3478,13 @@ SOT23
 0
 3
 3
+keyboard_parts
+MX_FMask-2u-with-cutout
+
+
+0
+2
+1
 keyboard_parts
 PIN_1
 
@@ -3576,6 +3688,13 @@ ALPS SKHLL low tactile switch
 0
 4
 4
+keyboard_parts
+TEXT
+
+
+0
+9
+0
 keyboard_parts
 USB_A
 

@@ -1,11 +1,55 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# cherrymx_MX_LED
+# EL87-rescue_C_Small-device
 #
-DEF cherrymx_MX_LED M 0 40 Y Y 2 L N
+DEF EL87-rescue_C_Small-device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "EL87-rescue_C_Small-device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 75 D 40 40 1 1 P
+X ~ 2 0 -100 80 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# EL87-rescue_D-device
+#
+DEF EL87-rescue_D-device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "EL87-rescue_D-device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+$ENDFPLIST
+DRAW
+P 2 0 1 6 -50 50 -50 -50 N
+P 3 0 1 0 50 50 -50 0 50 -50 F
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# EL87-rescue_MX_LED-cherrymx
+#
+DEF EL87-rescue_MX_LED-cherrymx M 0 40 Y Y 2 L N
 F0 "M" 0 -150 60 H V C CNN
-F1 "cherrymx_MX_LED" 0 200 60 H V C CNN
+F1 "EL87-rescue_MX_LED-cherrymx" 0 200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -25,33 +69,11 @@ X ~ K -300 0 250 R 40 40 2 1 P
 ENDDRAW
 ENDDEF
 #
-# device_D
+# EL87-rescue_SK6812Mini-E-device
 #
-DEF device_D D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "device_D" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Diode_*
- D-Pak_TO252AA
- *SingleDiode
- *_Diode_*
- *SingleDiode*
-$ENDFPLIST
-DRAW
-P 2 0 1 6 -50 50 -50 -50 N
-P 3 0 1 0 50 50 -50 0 50 -50 F
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device_SK6812Mini-E
-#
-DEF device_SK6812Mini-E LED 0 40 Y N 1 F N
+DEF EL87-rescue_SK6812Mini-E-device LED 0 40 Y N 1 F N
 F0 "LED" 0 100 50 H V C CNN
-F1 "device_SK6812Mini-E" 0 -100 50 H V C CNN
+F1 "EL87-rescue_SK6812Mini-E-device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -78,11 +100,11 @@ X GND 3 -200 -50 150 R 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# proton_c_proton_c
+# EL87-rescue_proton_c-proton_c
 #
-DEF proton_c_proton_c U 0 40 Y Y 1 F N
+DEF EL87-rescue_proton_c-proton_c U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "proton_c_proton_c" 0 100 50 H V C CNN
+F1 "EL87-rescue_proton_c-proton_c" 0 100 50 H V C CNN
 F2 "qmk_hardware-master:proton_c" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 $FPLIST
